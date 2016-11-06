@@ -14,6 +14,7 @@
 		7B2D0A761DCED51500ACDDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2D0A741DCED51500ACDDC2 /* LaunchScreen.storyboard */; };
 		7B2D0A811DCED51500ACDDC2 /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D0A801DCED51500ACDDC2 /* HamburguesasTests.swift */; };
 		7B2D0A8C1DCED51600ACDDC2 /* HamburguesasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D0A8B1DCED51600ACDDC2 /* HamburguesasUITests.swift */; };
+		7B2D0A9A1DCED59A00ACDDC2 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D0A991DCED59A00ACDDC2 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7B2D0A871DCED51500ACDDC2 /* HamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2D0A8B1DCED51600ACDDC2 /* HamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasUITests.swift; sourceTree = "<group>"; };
 		7B2D0A8D1DCED51600ACDDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2D0A991DCED59A00ACDDC2 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		7B2D0A5F1DCED51500ACDDC2 = {
 			isa = PBXGroup;
 			children = (
+				7B2D0A9B1DCEE7C300ACDDC2 /* ArchivoSwift */,
 				7B2D0A6A1DCED51500ACDDC2 /* Hamburguesas */,
 				7B2D0A7F1DCED51500ACDDC2 /* HamburguesasTests */,
 				7B2D0A8A1DCED51500ACDDC2 /* HamburguesasUITests */,
@@ -123,6 +126,14 @@
 				7B2D0A8D1DCED51600ACDDC2 /* Info.plist */,
 			);
 			path = HamburguesasUITests;
+			sourceTree = "<group>";
+		};
+		7B2D0A9B1DCEE7C300ACDDC2 /* ArchivoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7B2D0A991DCED59A00ACDDC2 /* Datos.swift */,
+			);
+			name = ArchivoSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				7B2D0A6E1DCED51500ACDDC2 /* ViewController.swift in Sources */,
 				7B2D0A6C1DCED51500ACDDC2 /* AppDelegate.swift in Sources */,
+				7B2D0A9A1DCED59A00ACDDC2 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
